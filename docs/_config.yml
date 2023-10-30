@@ -28,7 +28,7 @@ url: https://its-x3non.github.io # the base hostname & protocol for your site, e
 github_username:  its-x3non
 
 # Build settings
-theme: pages-themes/midnight@v0.2.0
+theme: midnight
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
