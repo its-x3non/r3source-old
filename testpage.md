@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "TEST"
-permalink: ../
+permalink: /r3sources/
 ---
 
 # Hiii
