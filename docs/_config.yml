@@ -28,7 +28,7 @@ domain: its-x3non.github.io
 baseurl: /r3sources # the subpath of your site, e.g. /blog
 url: https://its-x3non.github.io/r3sources/ # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  its-x3on
+github_username:  its-x3non
 
 # Build settings
 theme: minima
