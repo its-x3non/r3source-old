@@ -21,9 +21,7 @@
 title: Your awesome title
 email: 124.xenon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  crazy
 domain: its-x3non.github.io
 baseurl: /r3sources # the subpath of your site, e.g. /blog
 url: https://its-x3non.github.io/r3sources/ # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +29,7 @@ url: https://its-x3non.github.io/r3sources/ # the base hostname & protocol for y
 github_username:  its-x3non
 
 # Build settings
-theme: midnight
+theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
