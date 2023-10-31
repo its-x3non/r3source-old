@@ -31,8 +31,9 @@
 
 /* current active */
 .topnav li.active a {
-    color: lightgray !important;
-    cursor: default !important;
+    color: lightgray;
+    cursor: default;
+    background-color: #33cc33
 }
 
 .content {
