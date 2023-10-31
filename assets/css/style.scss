@@ -25,6 +25,13 @@
   color: black;
 }
 
+/* current active */
+.topnav a.active {
+    color: lightgray;
+    cursor: default;
+}
+
+
 .content {
   margin:0 auto;
   position:relative;
@@ -36,9 +43,4 @@
   margin:0 auto;
   position:relative;
   padding: 20px;
-}
-
-.result a.active {
-    color: lightgray;
-    cursor: default;
 }
