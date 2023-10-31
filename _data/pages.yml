@@ -2,7 +2,7 @@ docs_list_title: Pages
 docs:
 
 - title: Homepage
-  url: ../pages/Homepage
+  url: ../homepage
 
 - title: Test
-  url: ../pages/test
+  url: ../test
