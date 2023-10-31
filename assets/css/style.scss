@@ -26,10 +26,11 @@
 }
 
 /* current active */
-.topnav a.active a {
-    color: lightgray;
-    cursor: default;
+.topnav a.active {
+    color: lightgray !important;
+    cursor: default !important;
 }
+
 .content {
   margin:0 auto;
   position:relative;
