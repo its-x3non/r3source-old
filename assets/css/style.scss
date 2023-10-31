@@ -9,13 +9,11 @@
 }
 
 .topnav a {
-  color: white;
-  float: left;
   display: block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .topnav a:hover {
@@ -54,7 +52,7 @@
   background: #ccc;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 450px) {
   .topnav .search-container {
     float: none;
   }
