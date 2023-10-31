@@ -24,16 +24,12 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.topnav li a:hover:not(.active) {
+  background-color: #111;
 }
 
-/* current active */
-.topnav li.active a {
-    color: lightgray;
-    cursor: default;
-    background-color: #33cc33
+.topnav .active {
+  background-color: #04AA6D;
 }
 
 .content {
