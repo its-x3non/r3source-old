@@ -43,7 +43,11 @@
       </section>
     </div>
 
-    {% include navigation.html}
+    <ul>
+     {% for item in data.pages.docs %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+     {% endfor %}
+    </ul>
     
     <div class="content">
       <div class="topnav">
