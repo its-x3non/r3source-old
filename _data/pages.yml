@@ -1,4 +1,5 @@
-# Belongs at: /_data/navigation.yml
+docs_list_title: Pages
+docs:
 
 - title: Home
   url: /Homepage
