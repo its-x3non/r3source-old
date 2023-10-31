@@ -1,8 +1,11 @@
 docs_list_title: Pages
 docs:
 
+- title: Welcome!
+  url: /r3sources/
+
 - title: Homepage
-  url: /r3sources/pages/Homepage/
+  url: /r3sources/Homepage/
 
 - title: Test
-  url: /r3sources/pages/Test/
+  url: /r3sources/Test/
