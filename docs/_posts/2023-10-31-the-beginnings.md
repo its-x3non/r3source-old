@@ -2,8 +2,8 @@
 layout: post
 title:  "The beginnings"
 ---
-
-# Site Wide Update!
+# 10/30/2023
+## Site Wide Update!
 **8:07 PM PST** - General Layout In Progress
 - Navigation Bar
 - To be added
