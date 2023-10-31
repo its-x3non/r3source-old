@@ -44,13 +44,13 @@
     </div>
     
     <div class="content">
-      <ul class="topnav">
-        {% for item in site.data.samplelist.docs %}
-          <li class="{% if item.url == page.url %}active{% endif %}">
+     <div class="topnav">
+       {% for item in site.data.pages.docs %}
+         <li class="{% if item.url == page.url %}active{% endif %}">
             <a href="{{ item.url }}">{{ item.title }}</a>
-          </li>
+         </li>
         {% endfor %}
-      </ul>
+      </div>
 
       <div class="update">
         {{ content }}
