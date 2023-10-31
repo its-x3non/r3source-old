@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The beginnings"
+title:  "The Beginnings"
 ---
-# 10/30/2023
+# 10/30/2023 - The Beginnings!
 ## Site Wide Update!
 **8:07 PM PST** - General Layout In Progress
 - Navigation Bar
