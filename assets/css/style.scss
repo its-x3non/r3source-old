@@ -26,12 +26,10 @@
 }
 
 /* current active */
-.topnav a.active {
+.topnav active a {
     color: lightgray;
     cursor: default;
 }
-
-
 .content {
   margin:0 auto;
   position:relative;
