@@ -15,6 +15,7 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
+  padding-bottom: 25px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -29,4 +30,10 @@
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.content {
+  margin:0 auto;
+  position:relative;
+  padding: 0 20px;
 }
