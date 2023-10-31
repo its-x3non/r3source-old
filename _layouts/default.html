@@ -48,6 +48,7 @@
        {% for item in site.data.pages.docs %}
          <li class="{% if item.url == page.url %}active{% endif %}">
             <a href="{{ item.url }}">{{ item.title }}</a>
+           {{ item.title }}
          </li>
         {% endfor %}
       </div>
@@ -55,7 +56,6 @@
       <div class="update">
         {{ content }}
         {{ page.url }}
-        {{ item.title }}
       </div>
       
     </div>
