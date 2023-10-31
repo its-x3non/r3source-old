@@ -48,8 +48,12 @@
         {% for item in site.data.pages.docs %}
           <a href="{{ item.url }}">{{ item.title }}</a>
          {% endfor %}
-          <input type="text" placeholder="Search..">
-          <button type="submit">Submit</button>
+          <div class="search-container">
+            <form action="">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Submit</button>
+            </form>
+          </div>
       </div>
 
 
