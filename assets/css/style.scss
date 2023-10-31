@@ -18,8 +18,10 @@
   text-decoration: none;
 }
 
+/* Display list items inline */
 .topnav li {
   list-style-type: none;
+  display: inline;
 }
 
 /* Change the color of links on hover */
@@ -27,6 +29,7 @@
   background-color: #111;
 }
 
+/* Style for active link */
 .topnav .active {
   background-color: #04AA6D;
 }
