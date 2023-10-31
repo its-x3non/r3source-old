@@ -2,7 +2,7 @@ docs_list_title: Pages
 docs:
 
 - title: Homepage
-  url: ../Homepage/
+  url: /r3sources/pages/Homepage/
 
 - title: Test
-  url: ../Test/
+  url: /r3sources/pages/Test/
