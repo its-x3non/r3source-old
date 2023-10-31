@@ -10,7 +10,7 @@
 }
 
 /* Style the links inside the navigation bar */
-.topnav li a {
+.topnav ul a {
   display: block;
   color: white;
   text-align: center;
@@ -19,13 +19,13 @@
 }
 
 /* Display list items inline */
-.topnav li {
+.topnav ul {
   list-style-type: none;
   display: inline-block;
 }
 
 /* Change the color of links on hover */
-.topnav li a:hover:not(.active) {
+.topnav ul a:hover:not(.active) {
   background-color: #111;
 }
 
