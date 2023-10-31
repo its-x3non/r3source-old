@@ -1,7 +1,8 @@
-toc:
-  - title: Main
-    subfolderitems:
-      - page: Homepage
-        url: /Homepage
-      - page: Test
-        url: /test
+docs_list_title: Pages
+docs:
+
+- title: Homepage
+  url: pages/Homepage
+
+- title: Test
+  url: pages/test
