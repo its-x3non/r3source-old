@@ -3,5 +3,5 @@
 ### Site Wide Update!
 **8:07 PST** - General Layout In Progress
 - Navigation Bar
-- To be added: Search bar
+- To be added: Search bar <br />
 **7:16 PST** - Theme work :)
