@@ -27,6 +27,10 @@
   background-color: #111;
 }
 
+.topnav li.active a {
+    color: lightgray;
+    cursor: default;
+}
 
 .content {
   margin:0 auto;
