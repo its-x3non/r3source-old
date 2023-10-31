@@ -4,7 +4,7 @@ title: Homepage
 permalink: /Homepage/
 ---
 # Welcome to r3sources!
-[Update Logs](/docs/_posts)
+[Update Logs](../docs/_posts)
 
 # r3sources updates! :D
 ## 10/31/2023 
