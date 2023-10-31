@@ -45,8 +45,10 @@
     
     <div class="content">
       <div class="topnav">
-        {% for item in site.data.pages.docs %}
-         <a href="{{ item.url }}" class="{% if item.url == page.url %}active{% endif %}"> {{ item.title }} </a>
+        {% for item in site.data.samplelist.docs %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          </li>
         {% endfor %}
       </div>
 
