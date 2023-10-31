@@ -9,26 +9,29 @@
   overflow: hidden;
 }
 
+.topnav li {
+  display: inline;
+}
+
 /* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
+.topnav li a {
+  display: block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav li a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* current active */
-.topnav a.active {
-    color: lightgray !important;
-    cursor: default !important;
+.topnav li.active a {
+    color: lightgray;
+    cursor: default;
 }
 
 .content {
