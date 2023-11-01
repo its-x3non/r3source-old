@@ -33,14 +33,17 @@
 }
 
 .topnav input[type=text] {
-  padding: 14px 16px;
+  padding: 6px;
+  margin-top: 10px;
   font-size: 17px;
   border: none;
 }
 
 .topnav .search-container button {
   float: right;
-  padding: 14px 16px;
+  padding: 6px;
+  margin-top: 10px;
+  margin-right: 16px
   background: #ddd;
   font-size: 17px;
   border: none;
