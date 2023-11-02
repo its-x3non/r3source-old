@@ -5,6 +5,7 @@ title:  "General Update"
 # 11/1/2023 - General Udpate!
 ### 9:32 PM PST
 - General Fixups n such
+- Added "Updates" Layout (Shown in this page)
 - To-do:
   - Add some resources (still)
 
