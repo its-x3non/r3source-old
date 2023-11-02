@@ -10,6 +10,10 @@ permalink: /r3source-page/
 - R3ferences
   
 ## Entertainment r3sources
-- Guides
-- Tutorials
-- R3ferences
+- Anime
+- Books
+- Movies
+- Music
+- TV Shows
+- Video Games
+- Websites
