@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: updates
 title:  "General Update"
 ---
 # 11/1/2023 - General Udpate!
