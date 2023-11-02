@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Homepage
-permalink: /homepage/
+title: News & Updates
+permalink: /news-updates/
 ---
 # r3source news
 
