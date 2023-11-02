@@ -3,7 +3,7 @@ layout: page
 title: Homepage
 permalink: /Homepage/
 ---
-# Welcome to r3sources!
+# r3source news
 
 ## r3sources updates! :D
 ### [10/31/2023](../docs/_posts/2023-10-31-the-2nd-day.md)
