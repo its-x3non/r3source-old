@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Homepage
-permalink: /Homepage/
+permalink: /homepage/
 ---
 # r3source news
 
