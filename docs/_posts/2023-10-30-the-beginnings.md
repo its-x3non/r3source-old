@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: updates
 title:  "The Beginnings"
 ---
 # 10/30/2023 - The Beginnings!
