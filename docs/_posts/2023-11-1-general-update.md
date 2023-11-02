@@ -3,6 +3,9 @@ layout: post
 title:  "General Update"
 ---
 # 11/1/2023 - General Udpate!
+# 9:07 PM PST
+- Navigation (Drop Down) Done
+
 ### 7:47 PM PST
 - Adding education resource folder
 - To-do:
