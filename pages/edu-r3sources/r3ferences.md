@@ -1,6 +1,6 @@
 ---
 layout: page
-title: r3ferences
+title: R3ferences
 permalink: /edu-r3ferences/
 ---
-# r3ferences
+# R3ferences
