@@ -4,5 +4,8 @@ title: r3sources
 permalink: /r3source-page/
 ---
 
-# Hiii
-:33 
+# Educational r3sources
+- Guides
+- Tutorials
+- R3ferences
+# Entertainment r3sources
