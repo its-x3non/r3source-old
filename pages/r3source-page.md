@@ -1,6 +1,6 @@
 ---
 layout: page
-title: r3source page
+title: r3sources
 permalink: /r3source-page/
 ---
 
