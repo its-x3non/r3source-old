@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: r3sources
 permalink: /r3source-page/
 ---
