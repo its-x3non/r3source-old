@@ -4,6 +4,11 @@ title: Entertainment Homepage
 permalink: /entmt-homepage/
 ---
 # Entertainment r3sources!
-- Guides
-- Tutorials
-- R3ferences
+- Anime
+- Books
+- Movies
+- Music
+- TV Shows
+- Video Games
+- Websites
+
