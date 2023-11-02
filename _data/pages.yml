@@ -1,14 +1,14 @@
-toc2:
-  - title: Group 1
-    subfolderitems:
-      - page:  Welcome!
-        url: /r3source/
-      - page: Homepage
-        url: /r3source/homepage/
-      - page: r3sources
-        url: /r3source/r3source-page/
-         subsubfolderitems:
-          - page: Educational
-            url: /r3source/edu-r3sources/edu-homepage/
-          - page: Entertainment
-            url: /r3source/entmt-r3sources/entmt-homepage/
+# toc2:
+#  - title: Group 1
+#    subfolderitems:
+#      - page:  Welcome!
+#        url: /r3source/
+#      - page: Homepage
+#        url: /r3source/homepage/
+#      - page: r3sources
+#        url: /r3source/r3source-page/
+#         subsubfolderitems:
+#          - page: Educational
+#            url: /r3source/edu-r3sources/edu-homepage/
+#          - page: Entertainment
+#            url: /r3source/entmt-r3sources/entmt-homepage/
