@@ -1,41 +1,25 @@
-<!-- Belongs at: /_includes/navigation.html -->
-
-<!-- This finds the current page so it can be highlighted. -->
-
-{% for entry in site.data.navigation %}
-{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-    {% if fullurl == page.url %}
-        {% assign current_page = fullurl %}
-        {% break %}
-    {% elsif page.url contains fullurl %}
-        {% assign current_page = fullurl %}
-    {% endif %}
-{% endfor %}
-
-<!-- Then we build the nav bar. -->
-<nav>
-    <ul>
-    {% for entry in site.data.navigation %}
-        {% if entry.url == current_page %}
-            <!-- uses yellow, you can change to any other hexadecimal colour code. -->
-            {% assign current = ' style="background-color: #FFFFFF"' %}
-        {% else %}
-            <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
-            {% assign current = null %}
-        {% endif %}
-        {% assign sublinks = entry.sublinks %}
-        {% if sublinks %}
-        <li{{ current }}>
-            <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-            <ul>
-                {% for sublink in sublinks %}
-                <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
-                {% endfor %}
-            </ul>
-        </li>
-        {% else %}
-        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-</nav>
+<div class="white">
+<div class="topnav">
+      <a href="https://its-x3non.github.io/r3source/">Home</a>
+      <a href="#">About</a>
+      <a href="/r3source/homepage/">Homepage</a>
+      
+    <!-- r3sources dropdown -->
+      <div class="dropdown">
+         <button class="dropbtn" href="/r3source/r3source-page">r3sources
+          <i class="fa fa-caret-down"></i>
+          </button>
+        <div class="dropdown-content">
+          <a href="/games/all-list.html">- Entire List -</a>
+          <a href="/games/bullet-hell-list.html">Bullet Hell Games</a>
+          <a href="/games/flash-list.html">Flash Games</a>
+        </div>
+      </div>
+       <div class="search-container">
+            <form action="">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+    </div>
+</div>
