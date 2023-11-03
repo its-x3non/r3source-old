@@ -1,4 +1,4 @@
-<!-- <div class="topnav" id="myTopnav">
+<div class="topnav" id="myTopnav">
       <a href="https://its-x3non.github.io/r3source/">Home</a>
       <a href="/r3source/news-updates/">News & Updates</a>
       
@@ -12,28 +12,23 @@
         </div>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      <div class="search-container">
+   <!--   <div class="search-container">
             <form action="">
               <input type="text" placeholder="Search.." name="search">
               <button type="submit">Submit</button>
             </form>
-          </div> 
-</div> -->
+          </div> -->
+</div> 
 
- <div class="w3-bar w3-black">
-    <a href="#" class="w3-bar-item w3-button w3-mobile w3-green">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
-    <div class="w3-dropdown-hover w3-mobile">
-      <button class="w3-button">Dropdown <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
-        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
-      </div>
-    </div>
-  </div>
-</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
-<!-- https://www.w3schools.com/w3css/w3css_navigation.asp 
-https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_navbar_responsive_drop -->
+<!-- https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
