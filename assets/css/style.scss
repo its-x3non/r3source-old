@@ -113,7 +113,7 @@
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen, screen and (max-width: 720px) {
+@media print, screen and (max-width: 720px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -132,6 +132,10 @@
     width: 100%;
     text-align: left;
   }
-  .update { position: relative; }
+  .update { 
+    padding: 5px;
+    text-align: left;
+    position: relative; 
+  }
 }
 /* top nav: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
