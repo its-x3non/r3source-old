@@ -20,53 +20,20 @@
           </div> 
 </div> -->
 
-<div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:160px;">
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
-  Accordion <i class="fa fa-caret-down"></i>
-  </button>
-  <div id="demoAcc" class="w3-hide w3-white w3-card">
-    <a href="#" class="w3-bar-item w3-button">Link</a>
-    <a href="#" class="w3-bar-item w3-button">Link</a>
-  </div>
-
-  <div class="w3-dropdown-click">
-    <button class="w3-button" onclick="myDropFunc()">
-      Dropdown <i class="fa fa-caret-down"></i>
-    </button>
-    <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-      <a href="#" class="w3-bar-item w3-button">Link</a>
+ <div class="w3-bar w3-black">
+    <a href="#" class="w3-bar-item w3-button w3-mobile w3-green">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+    <div class="w3-dropdown-hover w3-mobile">
+      <button class="w3-button">Dropdown <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
+      </div>
     </div>
   </div>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
 </div>
 
-<script>
-function myAccFunc() {
-  var x = document.getElementById("demoAcc");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-    x.previousElementSibling.className += " w3-green";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-    x.previousElementSibling.className = 
-    x.previousElementSibling.className.replace(" w3-green", "");
-  }
-}
-
-function myDropFunc() {
-  var x = document.getElementById("demoDrop");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-    x.previousElementSibling.className += " w3-green";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-    x.previousElementSibling.className = 
-    x.previousElementSibling.className.replace(" w3-green", "");
-  }
-}
-</script>
-
-<!-- https://www.w3schools.com/w3css/w3css_sidebar.asp -->
+<!-- https://www.w3schools.com/w3css/w3css_navigation.asp 
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_navbar_responsive_drop -->
