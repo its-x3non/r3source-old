@@ -132,10 +132,14 @@
     width: 100%;
     text-align: left;
   }
-  .update { 
+}
+
+@media print, screen and (max-width: 250px)
+{
+    .update { 
     padding: 5px;
     text-align: left;
-    position: relative; 
   }
+  .topnav.responsive .dropdown .dropbtn { width: 75%; }
 }
 /* top nav: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
